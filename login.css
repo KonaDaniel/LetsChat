@@ -1,0 +1,56 @@
+
+body,html{
+  background-color: #252A37;
+  text-align: center;
+  font-family: 'Palette Mosaic', cursive;
+  color: white;
+}
+
+.header{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#intro{
+  text-align: center;
+  background-color: #252A37;
+  color: white;
+  float: none;
+  margin: 5px;
+  padding: 25px;
+}
+
+
+center{
+   background-color: #252A37;
+}
+
+#login_div{ 
+
+   color: white;
+
+   text-align: center;
+
+   border: whitesmoke;
+
+   border-color: whitesmoke;
+
+   border-radius: 15px;
+
+   border-width: 3px;
+
+   border-style: groove;
+   
+   background-image: linear-gradient(to top, #252A37,#4d525e , #383b42, #1e1f22);
+
+   margin-left: 370px;
+
+   font-family: 'Palette Mosaic', cursive;
+
+}
+
+.text{
+  font-family: 'Palette Mosaic', cursive;
+}
+
