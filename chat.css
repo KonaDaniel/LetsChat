@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #252A37,#565a66 , #202022, #48494b);
+    color: white;
+    font-family: 'font-family: 'Recursive', sans-serif;';
+}
+
+label{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+    font-size: 55px;
+    font-family: 'font-family: 'Recursive', sans-serif;';
+}
+
+img{
+    height: 200px;
+}
+
+sup{
+    margin-top: 50px;
+}

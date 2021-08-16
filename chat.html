@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>LetsChat Chat page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+         <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+     
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+         <link rel="stylesheet" href="chat.css">
+         <script src="chat.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <center>
+                
+                <h1>
+
+                    <sup>LetsChat</sup>
+
+                    <br>
+
+                    <img src="Logo.PNG">
+                   
+                </h1>
+            </center>
+
+                 <center>  
+              <div id="output"> </div>
+                
+             <div id="input_div_message">
+                 <br>
+                 <label>Send a thought</label>
+                 <br>
+                 <input type="text" class="form-control" placeholder="Enter your thought" id="msg">
+                 <br><br>
+                 <button id="Send" onclick="send()" class="btn btn-success">Send It!</button>
+             </div>
+            </center> 
+
+                 </div>
+    </body>
+
+</html>
